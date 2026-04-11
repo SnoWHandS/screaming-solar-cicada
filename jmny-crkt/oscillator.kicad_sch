@@ -1457,7 +1457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13463c72-9d1c-486a-a7a9-189421054fdb")
-		(property "Reference" "R4"
+		(property "Reference" "R11"
 			(at 130.81 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1521,7 +1521,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "R4")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -1539,7 +1539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37403ffe-b960-4917-b9a8-f2207abde1ab")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR09"
 			(at 80.01 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1599,7 +1599,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "#PWR01")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -1705,7 +1705,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ffcd096-ac79-4f08-94c2-e7db268e2f92")
-		(property "Reference" "Q1"
+		(property "Reference" "Q2"
 			(at 130.81 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1797,7 +1797,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1815,7 +1815,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61c1b2b9-aae1-4c3a-b6af-b5eb4f6f96e2")
-		(property "Reference" "R2"
+		(property "Reference" "R9"
 			(at 96.52 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1879,7 +1879,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "R2")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -1897,7 +1897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "757be148-5413-4262-a8db-ec597284eb29")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR011"
 			(at 152.4 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -1957,7 +1957,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "#PWR04")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1975,7 +1975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7709cecc-172e-4b51-a11b-9a4a21f19336")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR010"
 			(at 128.27 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "#PWR02")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -2053,7 +2053,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7beab389-3e4a-490a-bce7-60c337fe47f1")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 77.47 91.4399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2145,7 +2145,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2163,7 +2163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83e74b11-ab2f-487b-96bc-f6de758de678")
-		(property "Reference" "R3"
+		(property "Reference" "R10"
 			(at 115.57 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2227,7 +2227,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "R3")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2245,7 +2245,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a70026cb-683a-4357-9591-be15847e9717")
-		(property "Reference" "R1"
+		(property "Reference" "R8"
 			(at 82.55 63.4999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2309,7 +2309,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "R1")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2327,7 +2327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aebf6dc3-5a70-45b5-a16d-824b1629e7cf")
-		(property "Reference" "C1"
+		(property "Reference" "C6"
 			(at 86.36 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2389,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "C1")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -2408,7 +2408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e24ca194-88b3-43be-92c7-6a19a40436ac")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 67.31 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2468,7 +2468,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -2486,7 +2486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f16dc97c-0ca3-4225-a4fe-e17e37837ebb")
-		(property "Reference" "C2"
+		(property "Reference" "C7"
 			(at 120.65 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2548,7 @@
 		(instances
 			(project "jmny-crkt"
 				(path "/70668a17-ad5c-449f-8bac-331355754e01/71bba9b9-5db9-406e-9116-667727c696c3"
-					(reference "C2")
+					(reference "C7")
 					(unit 1)
 				)
 			)

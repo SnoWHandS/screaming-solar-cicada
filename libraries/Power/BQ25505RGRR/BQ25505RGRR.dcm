@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BQ25505RGRR
+D Ultra Low Power Harvester Power Management IC with Boost Charger, and Autonomous Power Multiplexor
+K
+F http://www.ti.com/lit/gpn/bq25505
+$ENDCMP
+#
+#End Doc Library
