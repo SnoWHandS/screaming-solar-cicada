@@ -2,9 +2,55 @@
 	(version 20260306)
 	(generator "eeschema")
 	(generator_version "10.0")
-	(uuid 26f57786-a21e-415f-baa1-e47de8f75073)
+	(uuid "26f57786-a21e-415f-baa1-e47de8f75073")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 46.99 87.63)
+		(size 83.82 58.42)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "2159b2ba-aca0-4240-874b-a321ffed1b24")
+		(property "Sheetname" "oscillator"
+			(at 46.99 86.9184 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "oscillator.kicad_sch"
+			(at 46.99 146.6346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "crktboi"
+				(path "/26f57786-a21e-415f-baa1-e47de8f75073"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

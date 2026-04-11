@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "GSC1102YB-3V4000") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Buzzer/GSC1102YB-3V4000/GSC1102YB-3V4000.kicad_sym") (options "") (descr ""))
+)
