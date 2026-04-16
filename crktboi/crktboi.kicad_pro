@@ -673,6 +673,10 @@
     [
       "2159b2ba-aca0-4240-874b-a321ffed1b24",
       "oscillator"
+    ],
+    [
+      "a3c1f8d7-5458-4d0e-9452-c391f8a18638",
+      "Power"
     ]
   ],
   "text_variables": {},
