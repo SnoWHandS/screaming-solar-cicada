@@ -1626,17 +1626,6 @@
 		)
 		(uuid "fa257022-2957-4a81-8569-b3aeb19b430b")
 	)
-	(hierarchical_label "VBAT_OK"
-		(shape input)
-		(at 27.94 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "646ac1ab-e935-481e-bb8f-2a6f2c52d4ff")
-	)
 	(symbol
 		(lib_id "Device:R")
 		(at 109.22 68.58 0)

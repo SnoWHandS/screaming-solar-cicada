@@ -89,16 +89,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VBAT_OK" output
-			(at 107.95 71.12 270)
-			(uuid "42ba43cc-0655-420d-9dce-58e85734e0cc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(instances
 			(project "crktboi"
 				(path "/26f57786-a21e-415f-baa1-e47de8f75073"

@@ -1,0 +1,49 @@
+flowchart LR
+    VIN((VIN_DC from photodiode sheet))
+    GND((GND))
+    VSTOR((VSTOR))
+    VCAP((VCAP VBAT_PRI))
+    VRDIV((VRDIV))
+    VBATOK((VBAT_OK))
+    VBATOV((VBAT_OV))
+    OKH((OK_HYST))
+    OKP((OK_PROG))
+    VOC((VOC_SAMP))
+
+    VIN --- CIN[C_IN<br/>4.7 uF] --- GND
+    VIN --- L1pin[L1<br/>22 uH]
+    L1pin --- LBOOST((LBOOST pin 20))
+
+    VIN --- P2[U3 pin 2<br/>VIN_DC]
+    LBOOST --- P20[U3 pin 20<br/>LBOOST]
+
+    P19[U3 pin 19<br/>VSTOR] --- VSTOR
+    P18[U3 pin 18<br/>VBAT_SEC] --- VSTOR
+    P14[U3 pin 14<br/>VBAT_PRI] --- VCAP
+    VSTOR --- CSTOR[C_STOR<br/>4.7 uF + 0.1 uF] --- GND
+    VCAP --- U1[C8 1000 uF<br/>6.3 V example]
+    U1 --- GND
+    VCAP --- C3[C3 10 nF] --- GND
+
+    P8[U3 pin 8<br/>VRDIV] --- VRDIV
+    VRDIV --- R1[R1 5.11 MR] --- VBATOV
+    VBATOV --- R2[R2 5.11 MR] --- GND
+    VBATOV --- P7[U3 pin 7<br/>VBAT_OV]
+
+    VIN --- R3[R3 6.2 MR] --- VOC
+    VOC --- R4[R4 7.5 MR] --- GND
+    VOC --- P3[U3 pin 3<br/>VOC_SAMP]
+    P4[U3 pin 4<br/>VREF_SAMP] --- C2[C2 10 nF] --- GND
+
+    VRDIV --- R5[R5 1.5 MR] --- OKH
+    OKH --- R6[R6 6.8 MR] --- OKP
+    OKP --- R7[R7 5.1 MR] --- GND
+    OKH --- P11[U3 pin 11<br/>OK_HYST]
+    OKP --- P12[U3 pin 12<br/>OK_PROG]
+
+    P13[U3 pin 13<br/>VBAT_OK] --- VBATOK
+
+    P1[U3 pin 1<br/>VSS] --- GND
+    P5[U3 pin 5<br/>~EN] --- GND
+    P15[U3 pin 15<br/>VSS] --- GND
+    P21[U3 pin 21<br/>E_PAD] --- GND

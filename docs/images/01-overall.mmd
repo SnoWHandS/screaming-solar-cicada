@@ -1,0 +1,7 @@
+flowchart LR
+    PV[Photodiode Array sub-sheet<br/>3S x 3P VBPW34S<br/>VOC about 1.05 V] -->|VIN_DC| BQ[BQ25505 U3<br/>MPPT boost + load mgr]
+    BQ -->|VSTOR| TANK[Tank e.g. C8<br/>1000 uF 6.3 V]
+    BQ -->|VBAT_OK| LS[Load switch<br/>Qp P-FET + Qn 2N7002]
+    LS -->|+3V0 rail| OSC[Astable Q1/Q2 BC847<br/>R1 R4 = 10k]
+    OSC -->|gate| DRV[Q3 2N7002]
+    DRV -->|switched| BUZ[U_BUZ piezo<br/>GSC1102YB-3V4000]

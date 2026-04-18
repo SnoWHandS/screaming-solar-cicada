@@ -1,0 +1,10 @@
+flowchart LR
+    VSTOR2((VSTOR)) --> Qp_s[Qp source<br/>DMP2035U-7 P-FET]
+    Qp_s --> Qp_d[Qp drain] --> V3V0((+3V0 rail))
+    V3V0 --> C3V0[C_3V0<br/>100 nF 0402] --> GND2((GND))
+
+    VSTOR2 --> Rpull[R_pull<br/>1 MR] --> Qp_g[Qp gate]
+    Qp_g --> Qn_d[Qn drain<br/>2N7002]
+    Qn_d --> Qn_s[Qn source] --> GND2
+
+    VBOK((VBAT_OK pin 13)) --> Rgate[R_gate_n<br/>100 kR] --> Qn_g[Qn gate]

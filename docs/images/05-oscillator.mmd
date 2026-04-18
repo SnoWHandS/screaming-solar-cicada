@@ -1,0 +1,19 @@
+flowchart LR
+    V3V0((+3V0))
+    GND3((GND))
+
+    V3V0 --- R1c[R1 10 kR] --- Q1c[Q1 collector]
+    V3V0 --- R4c[R4 10 kR] --- Q2c[Q2 collector]
+    V3V0 --- R2b[R2 170 kR] --- Q1b[Q1 base]
+    V3V0 --- R3b[R3 170 kR] --- Q2b[Q2 base]
+
+    Q1c --- C1cap[C1 1 nF] --- Q2b
+    Q2c --- C2cap[C2 1 nF] --- Q1b
+
+    Q1e[Q1 emitter] --- GND3
+    Q2e[Q2 emitter] --- GND3
+
+    Q2c --- Q3g[Q3 gate<br/>2N7002]
+    Q3s[Q3 source] --- GND3
+    Q3d[Q3 drain] --- BUZm[U_BUZ piezo -]
+    BUZp[U_BUZ piezo +] --- V3V0

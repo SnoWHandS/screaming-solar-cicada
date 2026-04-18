@@ -1,0 +1,25 @@
+flowchart TB
+    subgraph String1["String 1"]
+      direction TB
+      D1a[D1 VBPW34S] --> D2a[D2 VBPW34S] --> D3a[D3 VBPW34S]
+    end
+    subgraph String2["String 2"]
+      direction TB
+      D1b[D4 VBPW34S] --> D2b[D5 VBPW34S] --> D3b[D6 VBPW34S]
+    end
+    subgraph String3["String 3"]
+      direction TB
+      D1c[D7 VBPW34S] --> D2c[D8 VBPW34S] --> D3c[D9 VBPW34S]
+    end
+    D3a -->|anode| S1[D10 BAT54]
+    D3b -->|anode| S2[D11 BAT54]
+    D3c -->|anode| S3[D12 BAT54]
+    S1 -->|cathode| VIN((VIN_DC))
+    S2 -->|cathode| VIN
+    S3 -->|cathode| VIN
+    GND1((GND)) --> D1a
+    GND1 --> D1b
+    GND1 --> D1c
+
+    DNP[D13 AM-1456 indoor PV cell<br/>DNP parallel option] -.->|+| VIN
+    DNP -.->|-| GND1
