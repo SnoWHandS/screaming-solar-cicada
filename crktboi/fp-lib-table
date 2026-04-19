@@ -3,4 +3,5 @@
 	(lib (name "GSC1102YB-3V4000") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Buzzer/GSC1102YB-3V4000") (options "") (descr ""))
 	(lib (name "BQ25505RGRR") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Power/BQ25505RGRR") (options "") (descr ""))
 	(lib (name "HS0J478M1016PC") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Power/HS0J478M1016PC") (options "") (descr ""))
+	(lib (name "VBPW34S") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Power/VBPW34S") (options "") (descr ""))
 )
