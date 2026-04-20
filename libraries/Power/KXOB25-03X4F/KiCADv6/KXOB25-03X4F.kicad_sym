@@ -1,0 +1,144 @@
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "KXOB25-03X4F-TB" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (property "Reference" "B" (id 0) (at 10.16 10.16 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Value" "KXOB25-03X4F-TB" (id 1) (at 10.16 -10.16 0)
+      (effects (font (size 1.524 1.524)))
+    )
+    (property "Footprint" "KXOB25_AAR" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "Datasheet" "KXOB25-03X4F-TB" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27) italic) hide)
+    )
+    (property "ki_keywords" "KXOB25-03X4F-TB" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_locked" "" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "ki_fp_filters" "KXOB25_AAR KXOB25_AAR-M KXOB25_AAR-L" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "KXOB25-03X4F-TB_0_1"
+      (polyline
+        (pts
+          (xy 7.366 0.762)
+          (xy 7.366 1.778)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.684 0)
+          (xy 17.78 0)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 8.636 -1.778)
+          (xy 8.636 1.778)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.858 1.27)
+          (xy 7.874 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 2.54 0)
+          (xy 8.5598 0)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 1.778 5.334)
+          (xy 4.826 3.302)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 11.684 0.762)
+          (xy 11.684 -0.762)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (circle (center 10.16 0) (radius 5.6896)
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 12.446 1.27)
+          (xy 13.462 1.27)
+        )
+        (stroke (width 0.2032) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.826 4.318)
+          (xy 4.826 3.302)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 4.826 3.302)
+          (xy 3.81 3.302)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 3.048 6.858)
+          (xy 6.096 4.572)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.096 5.334)
+          (xy 6.096 4.572)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 6.096 4.572)
+          (xy 5.334 4.572)
+        )
+        (stroke (width 0.127) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (pin unspecified line (at 20.32 0 180) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "1" (effects (font (size 1.27 1.27))))
+      )
+      (pin unspecified line (at 0 0 0) (length 2.54)
+        (name "" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+    )
+  )
+)
+

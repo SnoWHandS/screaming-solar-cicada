@@ -318,6 +318,309 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "KXOB25-03X4F:KXOB25-03X4F-TB"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "B"
+				(at 10.16 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "KXOB25-03X4F-TB"
+				(at 10.16 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "KXOB25_AAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "KXOB25-03X4F-TB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "KXOB25-03X4F-TB"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "KXOB25_AAR KXOB25_AAR-M KXOB25_AAR-L"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "KXOB25-03X4F-TB_0_1"
+				(polyline
+					(pts
+						(xy 1.778 5.334) (xy 4.826 3.302)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 8.5598 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 6.858) (xy 6.096 4.572)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 4.318) (xy 4.826 3.302)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 3.302) (xy 3.81 3.302)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 5.334) (xy 6.096 4.572)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 4.572) (xy 5.334 4.572)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 1.27) (xy 7.874 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 0.762) (xy 7.366 1.778)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.636 -1.778) (xy 8.636 1.778)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.16 0)
+					(radius 5.6896)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.684 0.762) (xy 11.684 -0.762)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 11.684 0) (xy 17.78 0)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.446 1.27) (xy 13.462 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 20.32 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:Mechanical_Shape"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -411,237 +714,6 @@
 					)
 					(fill
 						(type background)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "VBPW34S:VBPW34S"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "VBPW34S"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "footprint:SENSOR-SMD_L4.4-W3.9"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "https://item.szlcsc.com/73165.html"
-				(at -2.286 0.127 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C145262"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "C145262"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "VBPW34S_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.524) (xy 1.016 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.524 3.302) (xy 0.762 2.54) (xy 1.524 2.54) (xy 0.508 1.524) (xy 0.762 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 1.524) (xy 2.286 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 3.302) (xy 2.032 2.54) (xy 2.794 2.54) (xy 1.778 1.524) (xy 2.032 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "A"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "C"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1 1)
-							)
-						)
 					)
 				)
 			)
@@ -844,101 +916,6 @@
 		)
 	)
 	(symbol
-		(lib_id "VBPW34S:VBPW34S")
-		(at 29.21 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2bf8dfff-2a33-4e24-b636-15bb81def390")
-		(property "Reference" "U3"
-			(at 24.13 58.9281 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBPW34S"
-			(at 24.13 56.3881 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VBPW34S:SENSOR-SMD_L4.4-W3.9"
-			(at 39.37 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/73165.html"
-			(at 29.083 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 29.21 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C145262"
-			(at 29.21 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97ba9340-94fc-431d-8b9d-bc1d9b35a16e")
-		)
-		(pin "2"
-			(uuid "20e6da0f-bc3e-4c8e-8c9f-5df37bd0827d")
-		)
-		(instances
-			(project "wings"
-				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BAT54J")
 		(at 52.07 40.64 180)
 		(unit 1)
@@ -1030,8 +1007,8 @@
 		)
 	)
 	(symbol
-		(lib_id "VBPW34S:VBPW34S")
-		(at 29.21 72.39 90)
+		(lib_id "KXOB25-03X4F:KXOB25-03X4F-TB")
+		(at 96.52 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1040,31 +1017,29 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7e11a628-f41c-4eb4-a9b3-4cbf34e8d7ec")
-		(property "Reference" "U4"
-			(at 24.13 72.8981 90)
+		(uuid "c30ad291-e648-4752-87f3-13663330aca1")
+		(property "Reference" "B1"
+			(at 106.318 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "VBPW34S"
-			(at 24.13 70.3581 90)
+		(property "Value" "KXOB25-03X4F-TB"
+			(at 106.318 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.524 1.524)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "VBPW34S:SENSOR-SMD_L4.4-W3.9"
-			(at 39.37 72.39 0)
+		(property "Footprint" "KXOB25-03X4F:KXOB25_AAR"
+			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1075,20 +1050,20 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://item.szlcsc.com/73165.html"
-			(at 29.083 74.676 0)
+		(property "Datasheet" "KXOB25-03X4F-TB"
+			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(italic yes)
 				)
-				(justify left)
 			)
 		)
 		(property "Description" ""
-			(at 29.21 72.39 0)
+			(at 96.52 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1097,28 +1072,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C145262"
-			(at 29.21 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d84e0f80-34f0-4713-9eb0-645a62c4433b")
 		)
 		(pin "2"
-			(uuid "001ca23f-7de2-4d06-b674-dc8c55f6cbe1")
+			(uuid "dace5a44-56c5-4906-97c6-01a0e5688e83")
+		)
+		(pin "1"
+			(uuid "d321040c-caf4-42a9-964a-3162c59aa430")
 		)
 		(instances
 			(project "wings"
 				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
-					(reference "U4")
+					(reference "B1")
 					(unit 1)
 				)
 			)
@@ -1195,196 +1159,6 @@
 			(project "wings"
 				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
 					(reference "S1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VBPW34S:VBPW34S")
-		(at 46.99 72.39 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb4d1710-f0ca-4978-bce9-65815c5405f1")
-		(property "Reference" "U2"
-			(at 41.91 72.8981 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBPW34S"
-			(at 41.91 70.3581 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VBPW34S:SENSOR-SMD_L4.4-W3.9"
-			(at 57.15 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/73165.html"
-			(at 46.863 74.676 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C145262"
-			(at 46.99 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e4f553f6-09e3-4588-8e34-5e9be4206d19")
-		)
-		(pin "2"
-			(uuid "eb050673-1d88-4ad6-a13f-898e0354b525")
-		)
-		(instances
-			(project "wings"
-				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "VBPW34S:VBPW34S")
-		(at 46.99 58.42 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cd616a7f-9634-4b8b-8b37-2deb95435437")
-		(property "Reference" "U1"
-			(at 41.91 58.9281 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VBPW34S"
-			(at 41.91 56.3881 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "VBPW34S:SENSOR-SMD_L4.4-W3.9"
-			(at 57.15 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://item.szlcsc.com/73165.html"
-			(at 46.863 60.706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" ""
-			(at 46.99 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C145262"
-			(at 46.99 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "954bcc70-ad59-473f-9f5d-ee925f731353")
-		)
-		(pin "2"
-			(uuid "675c0760-7112-45c9-8493-e64d9aa0bc73")
-		)
-		(instances
-			(project "wings"
-				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -1489,6 +1263,88 @@
 			(project "wings"
 				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KXOB25-03X4F:KXOB25-03X4F-TB")
+		(at 135.89 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc4cc2fa-1828-4710-a725-6fd404988001")
+		(property "Reference" "B2"
+			(at 145.688 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "KXOB25-03X4F-TB"
+			(at 145.688 63.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "KXOB25-03X4F:KXOB25_AAR"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "KXOB25-03X4F-TB"
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.89 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "52452193-6663-4b19-9e21-3b453c7b49ec")
+		)
+		(pin "1"
+			(uuid "86a69046-95f6-42f8-9653-0371f867e77f")
+		)
+		(instances
+			(project "wings"
+				(path "/9d26547c-c9ce-4209-b8bc-3af24c0d091a"
+					(reference "B2")
 					(unit 1)
 				)
 			)
