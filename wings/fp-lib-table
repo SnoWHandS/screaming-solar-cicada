@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "VBPW34S") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Power/VBPW34S") (options "") (descr ""))
+	(lib (name "Custom-wing") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Custom-wing.pretty") (options "") (descr ""))
+	(lib (name "KXOB25-03X4F") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Power/KXOB25-03X4F/KiCADv6/footprints.pretty") (options "") (descr ""))
+)

@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "KXOB25-03X4F") (type "KiCad") (uri "${GIT_PERSONAL}/jimny-crkt/libraries/Power/KXOB25-03X4F/KiCADv6/KXOB25-03X4F.kicad_sym") (options "") (descr ""))
+)
