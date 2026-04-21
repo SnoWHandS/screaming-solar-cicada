@@ -2668,10 +2668,10 @@
 		(uuid "12ef2d76-19d6-4253-bdb7-bfbca01be5d4")
 	)
 	(junction
-		(at 48.26 63.5)
+		(at 36.83 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "291a0e41-a2b1-4a9e-822f-23bf4258977b")
+		(uuid "143f6d82-4dd5-4b96-ae63-823ff7f2d92e")
 	)
 	(junction
 		(at 71.12 49.53)
@@ -2692,16 +2692,16 @@
 		(uuid "2c939892-293b-4ce9-949a-b98b4ba1a897")
 	)
 	(junction
+		(at 36.83 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38915ece-fffd-4d45-a8dc-110096b67b9d")
+	)
+	(junction
 		(at 71.12 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4824f94e-71b4-48dc-9985-7825c5ae9ecc")
-	)
-	(junction
-		(at 48.26 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c205a04-62ba-4d57-9752-39debe17a6b7")
 	)
 	(junction
 		(at 214.63 118.11)
@@ -2710,16 +2710,16 @@
 		(uuid "526b99e3-c0fc-42d3-80aa-dc34286a0cc5")
 	)
 	(junction
+		(at 48.26 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56ebcc57-e53a-40a4-bee2-86d6803f8474")
+	)
+	(junction
 		(at 60.96 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5af0e498-d1bc-480b-8d98-fdd3609de817")
-	)
-	(junction
-		(at 36.83 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d14c51d-5195-487f-a907-92d0c4f11398")
 	)
 	(junction
 		(at 100.33 59.69)
@@ -2752,12 +2752,6 @@
 		(uuid "cca6164e-7671-4da3-907b-c32085f34eea")
 	)
 	(junction
-		(at 36.83 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ce7eac5f-81ec-455a-bbdc-26bc3fc36024")
-	)
-	(junction
 		(at 194.31 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2776,6 +2770,12 @@
 		(uuid "db15eb53-2556-4ce5-b19b-eeaca6004688")
 	)
 	(junction
+		(at 48.26 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dd6cb8c5-2882-4aaa-a65c-35b5ba32e6df")
+	)
+	(junction
 		(at 172.72 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2791,13 +2791,13 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 41.91) (xy 48.26 36.83)
+			(xy 48.26 45.72) (xy 48.26 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05fcc300-64c0-4176-bc08-a1286f849487")
+		(uuid "07e6ec0b-ce9a-495b-8c88-a4676afeae2d")
 	)
 	(wire
 		(pts
@@ -2921,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 36.83) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29923264-ea31-4478-b93a-4630e66c73eb")
+	)
+	(wire
+		(pts
 			(xy 179.07 46.99) (xy 220.98 46.99)
 		)
 		(stroke
@@ -2958,6 +2968,26 @@
 			(type default)
 		)
 		(uuid "30012830-5af6-4fd8-8036-c1037e9bef91")
+	)
+	(wire
+		(pts
+			(xy 36.83 45.72) (xy 36.83 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31da68d0-1af7-4ce8-8b7d-bef68991c446")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 36.83 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32d7d8b8-cbcf-4f8b-a6ec-0524a9cd5465")
 	)
 	(wire
 		(pts
@@ -3081,13 +3111,23 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 36.83) (xy 60.96 36.83)
+			(xy 35.56 36.83) (xy 36.83 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "59e8f8ef-ede0-424b-b9ec-310a92419f50")
+	)
+	(wire
+		(pts
+			(xy 36.83 36.83) (xy 48.26 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59fc8576-5cbd-4320-8605-8671b6d523f0")
 	)
 	(wire
 		(pts
@@ -3211,16 +3251,6 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 41.91) (xy 36.83 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a408042-8aa4-46ad-9d47-8780a7166869")
-	)
-	(wire
-		(pts
 			(xy 26.67 63.5) (xy 36.83 63.5)
 		)
 		(stroke
@@ -3228,16 +3258,6 @@
 			(type default)
 		)
 		(uuid "8ba47a9b-5387-486c-a0dc-3ffd51b632cf")
-	)
-	(wire
-		(pts
-			(xy 35.56 36.83) (xy 36.83 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ca1e32e-6f1c-4bb7-be17-e60eb9bcc592")
 	)
 	(wire
 		(pts
@@ -3311,7 +3331,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 52.07) (xy 48.26 63.5)
+			(xy 48.26 57.15) (xy 48.26 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3491,7 +3511,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 52.07) (xy 36.83 63.5)
+			(xy 36.83 57.15) (xy 36.83 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3528,16 +3548,6 @@
 			(type default)
 		)
 		(uuid "d5084ce1-b245-44fa-a048-67979006779f")
-	)
-	(wire
-		(pts
-			(xy 36.83 36.83) (xy 48.26 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6cc42eb-10f9-4dde-ae07-e43d9f815789")
 	)
 	(wire
 		(pts
@@ -3648,6 +3658,16 @@
 			(type default)
 		)
 		(uuid "f79a3a84-699e-44bc-b7d9-767941b96082")
+	)
+	(wire
+		(pts
+			(xy 48.26 36.83) (xy 60.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc1bbfae-d980-45e7-8c93-15b0feb377cf")
 	)
 	(label "Vstore"
 		(at 187.96 46.99 0)
@@ -3865,7 +3885,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1fbaf699-33ac-4148-ab8d-bb5ebc517970")
 		(property "Reference" "U2"
@@ -4456,7 +4476,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 48.26 46.99 90)
+		(at 48.26 52.07 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4467,7 +4487,7 @@
 		(dnp no)
 		(uuid "3f1ec026-68fc-409f-ab9d-42088513e9cf")
 		(property "Reference" "TP1"
-			(at 53.848 48.26 90)
+			(at 53.848 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4478,7 +4498,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 44.45 42.164 0)
+			(at 44.45 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4489,7 +4509,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical"
-			(at 48.26 46.99 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4500,7 +4520,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 48.26 46.99 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4511,7 +4531,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 48.26 46.99 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4522,7 +4542,7 @@
 			)
 		)
 		(property "LCSC" "C492401"
-			(at 48.26 46.99 0)
+			(at 48.26 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5422,6 +5442,99 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:BAT54J")
+		(at 48.26 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "58441e3a-d861-4b89-beca-543176a3a9d6")
+		(property "Reference" "D3"
+			(at 50.8 40.3224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54J"
+			(at 50.8 42.8624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 43.815 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C130415"
+			(at 48.26 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53eff5d6-11e0-4ad7-8163-8900203f0d9e")
+		)
+		(pin "2"
+			(uuid "ca6604fc-b6aa-4ec7-aca9-b8a94f74eed8")
+		)
+		(instances
+			(project "crktboi"
+				(path "/26f57786-a21e-415f-baa1-e47de8f75073/a3c1f8d7-5458-4d0e-9452-c391f8a18638"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 214.63 139.7 0)
 		(unit 1)
@@ -6137,6 +6250,99 @@
 			(project "crktboi"
 				(path "/26f57786-a21e-415f-baa1-e47de8f75073/a3c1f8d7-5458-4d0e-9452-c391f8a18638"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAT54J")
+		(at 36.83 41.91 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4c7f182-ea72-43fe-b265-f92147c8a4a7")
+		(property "Reference" "D2"
+			(at 39.37 40.3224 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT54J"
+			(at 39.37 42.8624 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323F"
+			(at 32.385 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C130415"
+			(at 36.83 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0b58935e-d48e-460d-b66c-786a900dbd3d")
+		)
+		(pin "2"
+			(uuid "a912765a-9e4c-4ed9-9900-10997cd97809")
+		)
+		(instances
+			(project "crktboi"
+				(path "/26f57786-a21e-415f-baa1-e47de8f75073/a3c1f8d7-5458-4d0e-9452-c391f8a18638"
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -7338,7 +7544,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 36.83 46.99 90)
+		(at 36.83 52.07 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7349,7 +7555,7 @@
 		(dnp no)
 		(uuid "c4ed0e8c-090b-444c-b301-32215d3fec98")
 		(property "Reference" "TP2"
-			(at 39.37 47.752 0)
+			(at 39.37 52.832 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7360,7 +7566,7 @@
 			)
 		)
 		(property "Value" "TestPoint_2Pole"
-			(at 34.036 42.164 0)
+			(at 34.036 47.244 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7371,7 +7577,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x01_P2.54mm_Vertical"
-			(at 36.83 46.99 0)
+			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7382,7 +7588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 46.99 0)
+			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,7 +7599,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 36.83 46.99 0)
+			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7404,7 +7610,7 @@
 			)
 		)
 		(property "LCSC" "C492401"
-			(at 36.83 46.99 0)
+			(at 36.83 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8213,7 +8419,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f534ac62-46ab-4f1e-a60d-c6305860b157")
 		(property "Reference" "U3"
