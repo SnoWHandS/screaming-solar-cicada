@@ -485,7 +485,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "crktboi.kicad_pro",
+    "filename": "cicada.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -796,8 +796,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "crktboi.kicad_sch",
-        "name": "crktboi (page 1)s",
+        "filename": "cicada.kicad_sch",
+        "name": "cicada",
         "uuid": "26f57786-a21e-415f-baa1-e47de8f75073"
       }
     ],
