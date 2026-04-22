@@ -1,5 +1,8 @@
 # Screaming Solar Cicada
 
+![Top Front Isometric View](docs/images/Cicada-Assembly-Top-Front-Isometric-0_24mm.png)
+![Top View](docs/images/Cicada-Assembly-Top-0_24mm.png)
+
 A sun-fed, MCU-free noise bug that trickle-charges from a tiny **Anysolar KXOB** “SolarBIT” module, then screams in bursts when the storage node crosses a “battery good” threshold—then goes quiet until the cap refills. No code, no sleep states—just **PV → boost → cap → hysteresis → load switch → discrete astable → magnetic buzzer.**
 
 ---
@@ -37,6 +40,18 @@ Sanity-check **`VBAT_OV` ≥ `VBAT_OK` rising threshold** per TI ordering rules;
 ### 5. Noise
 
 **BC847** astable — **~174 kΩ** + **1 nF** timing (**~4 kHz** ballpark), **~1 kΩ** collectors. **GSC1102YB-3V4000** buzzer does the actual scream.
+
+#### Oscillator Design
+
+The discrete astable multivibrator is built around a pair of BC847 NPN transistors. The selected RC timing values (`174 kΩ` and `1 nF`) tune the oscillation frequency to approximately 4 kHz, which closely matches the resonant frequency of the magnetic buzzer to produce the loudest possible chirp.
+
+![Astable Multivibrator Schematic](resources/08_04_2026/oscillator_8_4_2026.jpeg)
+
+*Schematic of the oscillator circuit.*
+
+![Oscillator Frequency Response](resources/08_04_2026/frequency-response.jpeg)
+
+*Frequency response showing the ~4 kHz operating point.*
 
 ---
 
